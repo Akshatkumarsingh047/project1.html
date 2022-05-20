@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet"  href="STYLE.css">
+    <title> project1</title>
+    
+  </head>
+  <body>
+    <h1 style="font-family:georgia;color:black;text-align:center;font-size:400%;"center;>APPLICATION FORM</h1>
+    <div class="div">
+    <form>
+      <fieldset id="r"style="border:1.5px inset gray;width:device-width;background-color:cornsilk">
+        <legend  style="font-family:courier;border:2px solid gray">personal details</legend>
+     <div id="d2"><label  style="font-family:courier"for="name" style="font-family:verdana">YOUR NAME</label>
+        <input type="text" id="name" name="name" autocomplete="on" autofocus placeholder="AKSHAT SINGH"/><br><br>
+        <label  style="font-family:courier" for="rollno." >ROLLNO.</label>
+        <input type="text" name="rollbo" id="rollno" value="" placeholder="000" /><br><br>
+        <label  style="font-family:courier"for="PHONENO.">PHONENO.</label>
+      <input type="text" name="PHONENO" id="PHONENO" value="" size="10" maxlength="10" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"/
+      placeholder="123-456-7890" autocomplete="on" required><br><br>
+
+      <label for="gender"style="font-family:courier;text-align:left;"> SELECT GENDER--</label>
+    <br>  <label for="male" style="font-family:courier">male</label><input type="radio" name="gender" id="gender" /><br>
+      <label for="female" style="font-family:courier">female</label>
+      <input type="radio" name="female" id="female" value="" /><br><br></div><br><br>
+      <label style="font-family:courier"for="Birthday">Birthday</label>
+      <input type="date" name="" id="Birthday" value="" /><br><br>
+      <input type="submit" name="button" id="" value="submit" onclick="alert('details submitted successfully!!')"/>
+           <input type="reset" name="" id="Birthday" value="reset" />
+      </fieldset>
+      <!--<a href="group.html">
+   <input type="click" list="list" value="click">
+      <datalist name="select" id="list">
+      <option value="myfile">
+      <option value="group">
+        
+      </datalist>
+      </a>-->
+    
+    </form>
+    </div>
+    
+  </body>
+</html>
